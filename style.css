@@ -26,7 +26,7 @@ body {
 
 /* Estiliza as imagens */
 img {
-    max-width: 100px; /* Define o tamanho máximo da imagem */
+    max-width: 200px; /* Define o tamanho máximo da imagem */
     margin-bottom: 30px; /* Espaçamento abaixo da imagem */
 }
 
@@ -150,7 +150,7 @@ footer {
     padding: 0; /* Remove o espaçamento interno */
     width: 100%; /* Define a largura total do rodapé */
     position: absolute; /* Posiciona o rodapé de forma absoluta */
-    bottom: 0; /* Alinha o rodapé à parte inferior da página */
+    bottom: 1px; /* Alinha o rodapé à parte inferior da página */
     font-size: 1rem; /* Define o tamanho da fonte */
 }
 
