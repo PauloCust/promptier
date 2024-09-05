@@ -19,7 +19,7 @@ body {
     flex-direction: column; /* Alinha os elementos em uma coluna */
     align-items: center; /* Centraliza os itens horizontalmente */
     justify-content: center; /* Centraliza os itens verticalmente */
-    height: 150vh; /* Define a altura do corpo como 100% da altura da viewport */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
 }
