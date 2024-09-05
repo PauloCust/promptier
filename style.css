@@ -1,0 +1,197 @@
+/* Importa a fonte Chakra Petch do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Estiliza o cabeçalho */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Estiliza o corpo da página */
+body {
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão como Chakra Petch */
+    background-image: linear-gradient(45deg, #101926, #4a0b5e); /* Define um gradiente como fundo da página */
+    display: flex; /* Usa Flexbox para o layout */
+    flex-direction: column; /* Alinha os elementos em uma coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da viewport */
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+}
+
+/* Estiliza as imagens */
+img {
+    max-width: 200px; /* Define o tamanho máximo da imagem */
+    margin-bottom: 30px; /* Espaçamento abaixo da imagem */
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    font-size: 2.5rem; /* Define o tamanho da fonte */
+    color: #e2fbff; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.8rem; /* Define o espaçamento entre as letras */
+}
+
+/* Estiliza os títulos h2 */
+h2 {
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    font-weight: 400; /* Define o peso da fonte */
+    color: #98D4DE; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Define o espaçamento entre as letras */
+    margin-bottom: 3rem; /* Espaçamento abaixo do título */
+}
+
+/* Estiliza os títulos h3 */
+h3 {
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    font-weight: 300; /* Define o peso da fonte mais leve */
+    color: #5c5c5c; /* Cor do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+    letter-spacing: 0rem; /* Sem espaçamento extra entre as letras */
+    margin-bottom: 0rem; /* Sem margem abaixo do título */
+}
+
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para o layout */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+}
+
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Define a largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Define o espaçamento interno */
+    border-radius: 1.5rem; /* Bordas arredondadas */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto dos inputs */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Define o espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Bordas arredondadas */
+    background-color: #30475E; /* Define a cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão, indicando ser clicável */
+}
+
+/* Estiliza o nome de usuário dentro da pesquisa */
+.user-resultado {
+    font-size: 1rem; /* Define o tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza a caixa de resultados da pesquisa */
+.resultados-pesquisa {
+    width: 60rem; /* Define a largura da caixa de resultados */
+    height: 46vh; /* Define a altura da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical caso necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno da caixa */
+    border-radius: 0.6rem; /* Bordas arredondadas */
+}
+
+/* Estiliza cada item de resultado */
+.item-resultado {
+    background: #FFFFFF; /* Cor de fundo dos itens de resultado */
+    border-radius: 0.6rem; /* Bordas arredondadas */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve aos itens */
+}
+
+/* Estiliza os títulos dentro dos itens de resultado */
+.item-resultado h2 {
+    font-size: 1.5rem; /* Define o tamanho da fonte */
+    color: #222831; /* Cor do texto */
+}
+
+/* Estiliza os links dentro dos itens de resultado */
+.item-resultado a {
+    text-decoration: none; /* Remove a sublinha dos links */
+    color: #30475E; /* Cor dos links */
+}
+
+/* Estiliza os links quando o mouse passa sobre eles */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinha ao passar o mouse sobre os links */
+}
+
+/* Estiliza a descrição meta dentro dos itens de resultado */
+.descricao-meta {
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Define a margem acima e abaixo da descrição */
+}
+
+/* Estiliza os ícones (presumidamente da Font Awesome) */
+.fas {
+    font-size: 20px; /* Define o tamanho da fonte para os ícones */
+}
+
+/* Estiliza o rodapé da página */
+footer {
+    background-color: #F5F7F8; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Remove o espaçamento interno */
+    width: 100%; /* Define a largura total do rodapé */
+    position: absolute; /* Posiciona o rodapé de forma absoluta */
+    bottom: 0; /* Alinha o rodapé à parte inferior da página */
+    font-size: 1rem; /* Define o tamanho da fonte */
+}
+
+/* BOTÕES */
+
+.botoes-acao {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os botões */
+    margin-top: 15px;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.botoes-acao img {
+    /* Ícones dos botões */
+    max-width: 200%; /* Ajusta o tamanho do ícone */
+    margin-top: 30px;
+    border-radius: 50%; /* Deixa os ícones mais arredondados */
+    padding: 0.5rem; /* Espaçamento interno */
+}
+.resultados-pesquisa button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%; /* Botões redondos */
+    background-color: #30475E; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do ícone */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.resultados-pesquisa button:hover {
+    background-color: #2300ec56; /* Cor mais clara ao passar o mouse */
+    transform: scale(1.1); /* Aumenta levemente o botão ao passar o mouse */
+}
+
+.resultados-pesquisa button:active {
+    background-color: #ffffff; /* Cor mais escura ao clicar */
+    transform: scale(0.95); /* Reduz levemente o botão ao clicar */
+}

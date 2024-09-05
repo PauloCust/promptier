@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- Define o tipo de documento como HTML5 e a linguagem da página como português do Brasil -->
+<head>
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, garantindo suporte a caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a página para ser responsiva, ajustando o layout de acordo com a largura da tela -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Linka um arquivo CSS externo para estilizar a página -->
+    <title>Promptier</title>
+    <!-- Define o título da página que será exibido na aba do navegador -->
+    <!--Favicon-->
+    <link rel="shortcut icon" href="imagens/promptier-logo.png">
+    <!-- Adiciona um ícone personalizado na aba do navegador (favicon) -->
+</head>
+
+<body>
+    <header>
+        <!-- Tag de cabeçalho da página -->
+        <a href="/">
+            <img src="imagens/promptier-logo.png" alt="Promptier">
+            <!-- Link para a página inicial com uma imagem do logo da empresa, usada também para acessibilidade -->
+        </a>
+        <h1>Popularizando IA</h1>
+        <!-- Título principal da página -->
+    </header>
+    <main>
+        <!-- Conteúdo principal da página -->
+        <section>
+            <!-- Início de uma seção para pesquisa de prompts -->
+            <input type="text" placeholder="Gostaria de um prompt pra quê?">
+            <!-- Campo de entrada de texto com um placeholder para o usuário saber o que deve digitar -->
+            <button onclick="pesquisar()">Pesquisar</button> 
+            <!-- Botão que, ao ser clicado, aciona a função "pesquisar" (provavelmente definida no arquivo JS) -->
+        </section>
+
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <!-- Seção onde os resultados da pesquisa serão exibidos, com uma classe e um id para estilização e manipulação via JS -->
+        </section>
+    </main>
+    <footer>
+        <!-- Rodapé da página -->
+        <p>2024 © - Promptier. Todos os direitos reservados</p>
+        <!-- Mensagem de copyright -->
+        <p>Entre em contato pelo email: contato@promptier.com</p>
+        <!-- Informações de contato -->
+    </footer>
+    <script src="dados.js"></script>
+    <!-- Importa o arquivo JavaScript 'dados.js', possivelmente com dados usados na pesquisa -->
+    <script src="app.js"></script>
+    <!-- Importa o arquivo JavaScript 'app.js', que provavelmente contém a lógica de funcionamento da página -->
+</body>
+
+</html>
