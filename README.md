@@ -40,34 +40,6 @@ Leaderboard Enhancements: Display user statistics and achievements.
 AI-Powered Prompt Suggestions: Introduce AI-generated prompt recommendations based on user behavior.
 API Expansion: Allow third-party developers to integrate their tools with Promptier.
 Mobile App: Develop a native mobile app for iOS and Android.
-🏗️ Installation and Setup
-To set up and run the project locally, follow these steps:
-
-Prerequisites
-Node.js and npm (or yarn) installed on your system.
-MongoDB running locally or through a cloud-based service.
-Clone the Repository
-bash
-Copiar código
-git clone https://github.com/PauloCust/Promptier.git
-cd promptier
-Install Dependencies
-bash
-Copiar código
-npm install
-Set Up Environment Variables
-Create a .env file in the root directory and add the following:
-
-makefile
-Copiar código
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-PORT=5000
-Run the Application
-bash
-Copiar código
-npm run dev
-This will start the application on http://localhost:5000.
 
 🤝 Contributing
 Contributions are welcome! If you’d like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
