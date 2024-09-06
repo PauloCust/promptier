@@ -4,11 +4,31 @@ function pesquisar () {
     let section = document.getElementById("resultados-pesquisa");
     // Seleciona a seção onde os resultados da pesquisa serão exibidos, usando o ID "resultados-pesquisa"
 
+    let campoPesquisa = document.getElementById ("campo-pesquisa").value
+
+    if (campoPesquisa == "") {
+        section.innerHTML = "<p>Tente outra pesquisa</p>";
+        return
+    }
+
+    campoPesquisa = campoPesquisa.toLowerCase()
+
     let resultados = "";
+    let titulo= "";
+    let autor= "";
+    let descricao= "";
+    let tags= "";
+
     // Cria uma variável vazia para armazenar o HTML que será inserido na página com os resultados
 
     //para cada dado dentro da lista de dados
     for(let dado of dados) {
+        titulo = dado.titulo.toLowerCase()
+        autor = dado.autor.toLowerCase()
+        descricao = dado.descricao.toLowerCase()
+        tags = dado.tags.toLowerCase()
+        // Se no dado.título includes campoPesquisa
+        if (titulo.includes(campoPesquisa) || autor.includes(campoPesquisa) || descricao.includes(campoPesquisa) || tags.includes(campoPesquisa))
         // Loop que percorre a lista de dados (presumivelmente uma lista de objetos) e gera o HTML para cada item
 
         resultados += `
@@ -65,6 +85,10 @@ function pesquisar () {
     // Para cada item no array de "dados", um bloco de resultado é adicionado à variável "resultados"
     }
 
+    if (!resultados){
+        resultados = "<p>Nenhum prompt foi encontrado</p>"
+    }
+
     section.innerHTML = resultados;
     // Insere o conteúdo HTML gerado (resultados) dentro da seção de resultados na página
 }
@@ -91,3 +115,4 @@ function mostrarMais(element) {
     element.innerText = isExpanded ? "Mais informações" : "Mostrar menos";
     element.setAttribute("aria-expanded", !isExpanded);
 }
+
