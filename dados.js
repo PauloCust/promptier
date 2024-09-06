@@ -20,9 +20,11 @@ let dados = [
     descricao: "Efetue no máximo 10 perguntas para o usuário do chat, para orientar o Gemini a desenvolver a melhor resposta para o problema do usuário.",
     // Descrição do prompt, explicando o contexto e objetivo
 
-    link: "#"
+    link: "#",
     // Link (placeholder) que poderia abrir mais informações ou conteúdo adicional relacionado ao prompt
     // Comentário explicando que o conteúdo adicional não está sendo exibido da maneira esperada
+    
+    tags: "problema dificuldade",
     },
 
     {
@@ -47,6 +49,8 @@ let dados = [
     link: "#",
     // Link placeholder que pode ser utilizado para abrir mais informações ou conteúdos relacionados
     // Comentário explicando que o conteúdo adicional não está sendo exibido conforme desejado
+
+    tags: "IA Google",
     },
 
     {
@@ -71,5 +75,7 @@ let dados = [
     link: "#",
     // Link placeholder que pode ser utilizado para abrir mais informações ou conteúdos relacionados
     // Comentário explicando que o conteúdo adicional não está sendo exibido conforme desejado
+    
+    tags: "Maromba Academia",
     }
 ]
