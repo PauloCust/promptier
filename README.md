@@ -1,60 +1,50 @@
-Promptier - Gamified Prompt Social Network
-Welcome to Promptier! This is an innovative, gamified social network designed to let users create, share, and explore AI prompts while competing for badges and ranking in the community. This README provides an overview of the project, its development practices, and the technologies used.
+# Promptier
 
-🚀 Project Overview
-Promptier is a platform where users can engage with AI-driven prompts in a fun and interactive way. The platform turns prompt creation into a game, where creativity is rewarded with points, badges, and higher rankings. This project was developed with scalability, performance, and user engagement in mind.
+Promptier é uma interface de busca e exibição de prompts desenvolvida para integrar e popularizar o uso de Inteligência Artificial, oferecendo suporte a plataformas como ChatGPT, Gemini, e Copilot. Através de uma interface simples e intuitiva, os usuários podem buscar prompts personalizados para diferentes finalidades, visualizando descrições detalhadas e instruções claras para cada prompt.
 
-🌟 Features
-Gamified Experience: Users can create, share, and challenge themselves with AI prompts while earning badges and points.
-Community Interaction: Like, comment, and share prompts with the community. Compete for top rankings in a dynamic environment.
-Responsive Design: Fully optimized for desktop and mobile, ensuring a seamless experience across all devices.
-Secure Authentication: Uses JWT-based authentication to protect user data.
-Dynamic UI: Built with modern web technologies for an engaging, interactive experience.
-🛠️ Technologies
-The development of Promptier follows modern, industry-standard practices to ensure performance, security, and scalability.
+## Funcionalidades Principais
 
-Front-end
-HTML5 / CSS3: Structured and styled the core of the interface.
-JavaScript (ES6+): Handles dynamic behaviors across the platform.
-React.js: Provides a component-based, efficient UI that ensures fast updates and rendering.
-Responsive Design: CSS Media Queries were used to make the interface mobile-friendly and adaptable to all screen sizes.
-Back-end
-Node.js: JavaScript runtime used to handle server-side logic.
-Express.js: Web framework for creating APIs and handling requests.
-MongoDB: NoSQL database for high scalability and flexibility with user data storage.
-JWT (JSON Web Tokens): For secure authentication and session management.
-Development Tools
-Git/GitHub: Version control and collaboration.
-ESLint/Prettier: For code quality and consistency.
-Jest: Unit testing framework to ensure the reliability of critical features.
-Continuous Integration (CI): Automatically test and deploy changes using GitHub Actions.
-💡 Best Practices
-Throughout the development process, we have adopted the following best practices:
+- **Pesquisa de Prompts**: Os usuários podem pesquisar por prompts para diversas plataformas.
+- **Exibição de Detalhes**: Cada prompt apresenta detalhes como descrição, autor, plataforma e regras para melhor utilização.
+- **Interatividade**: Seção de "Mais Informações" onde o usuário pode explorar instruções adicionais e dicas para melhorar a interação com IA.
+- **Design Responsivo**: Interface projetada para ser acessível em diferentes dispositivos, com foco na experiência do usuário (UX).
 
-Modular Design: The project is divided into modules to make it scalable and maintainable.
-Security: Implements best security practices, including HTTPS, token-based authentication, and data encryption.
-Performance Optimization: Uses caching strategies, lazy loading, and code splitting to ensure a fast, smooth user experience.
-Accessibility: Follows accessibility guidelines to ensure the platform is usable by all individuals.
-📈 Roadmap
-Leaderboard Enhancements: Display user statistics and achievements.
-AI-Powered Prompt Suggestions: Introduce AI-generated prompt recommendations based on user behavior.
-API Expansion: Allow third-party developers to integrate their tools with Promptier.
-Mobile App: Develop a native mobile app for iOS and Android.
+## Tecnologias Utilizadas
 
-🤝 Contributing
-Contributions are welcome! If you’d like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
+- **HTML5**: Estrutura da interface e integração com scripts.
+- **CSS3**: Estilização da página com gradientes e design moderno.
+- **JavaScript**: Lógica de busca e interação com os dados de prompts.
+- **Google Fonts**: Tipografia personalizada para melhorar a legibilidade.
 
-Steps to Contribute
-Fork the repository.
-Create your feature branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add feature').
-Push to the branch (git push origin feature-branch).
-Open a pull request.
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Estrutura do Projeto
 
-📧 Contact
-If you have any questions, feel free to reach out!
+- **index.html**: Estrutura base da página, contendo o campo de pesquisa e áreas de exibição de resultados.
+- **style.css**: Arquivo de estilização responsável pelo design visual da interface.
+- **dados.js**: Armazena os dados dos prompts, como título, descrição, autor e plataforma.
+- **app.js**: Gerencia a lógica de busca e exibição dos resultados de forma dinâmica.
 
-Project Lead: Paulo Custodio | poll.cust@gmail.com
-GitHub: PauloCust
+## Como Utilizar
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/promptier.git
+   ```
+
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd promptier
+   ```
+
+3. Abra o arquivo `index.html` no navegador para visualizar a interface.
+
+## Autor
+
+Desenvolvido por **Paulo Custódio**  
+Designer Digital/UX  
+Email: poll.cust@gmail.com
+
+Se você tiver dúvidas ou sugestões, sinta-se à vontade para entrar em contato.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
