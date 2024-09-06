@@ -55,10 +55,10 @@ function pesquisar () {
             </div>
 
             <div class="botoes-acao">
-                <button><img src="imagens/like.png" alt=""></button>
-                <button><img src="imagens/dislike.png" alt=""></button>
-                <button><img src="imagens/copy.png" alt=""></button>
-                <button><img src="imagens/share.png" alt=""></button>
+                <button><img src="like.png" alt=""></button>
+                <button><img src="dislike.png" alt=""></button>
+                <button><img src="copy.png" alt=""></button>
+                <button><img src="share.png" alt=""></button>
             </div>
         </div>
     `
