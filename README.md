@@ -27,12 +27,12 @@ Promptier é uma interface de busca e exibição de prompts desenvolvida para in
 
 1. Clone este repositório:
    ```bash
-   [git clone https://github.com/seu-usuario/promptier.git](https://github.com/PauloCust/promptier/)
+   (https://github.com/PauloCust/promptier/)
    ```
 
 2. Navegue até a pasta do projeto:
    ```bash
-   [cd promptier](https://paulocust.github.io/promptier/)
+   (https://paulocust.github.io/promptier/)
    ```
 
 3. Abra o arquivo `index.html` no navegador para visualizar a interface.
